@@ -49,6 +49,7 @@ class Game extends React.Component {
                     currentSelection: [],
                     score: parseInt(level * 10),
                 });
+                this.interval();
             } else {
                 this.showAlert(
                     alertConstants.welcomeAlert.title,
