@@ -45,8 +45,8 @@ const shuffle = (arra1) => {
 export const getCardSizeBasedOnLevel = level => {
     switch (level) {
         case 1:
-            return {width: 130, height: 160};
+            return {width: 120, height: 160};
         default :
-            return {width: 120, height: 120};
+            return {width: 100, height: 100};
     }
 };

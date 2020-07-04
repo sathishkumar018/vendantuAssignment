@@ -143,17 +143,6 @@ class Game extends React.Component {
             > {card.number}
             </Card>);
     };
-    footer = () => {
-        return (
-            <View style={{height: 120, paddingBottom: 180}}>
-            </View>);
-    };
-
-    header = () => {
-        return (
-            <View style={{height: 120, paddingBottom: 180}}>
-            </View>);
-    };
 
     constructor(props) {
         super(props);
@@ -232,6 +221,8 @@ class Game extends React.Component {
                                   justifyContent: 'center',
                                   paddingLeft: 12,
                                   paddingRight: 12,
+                                  marginLeft:12,
+                                  marginRight:12,
                                   paddingBottom: 60,
                               }}
                               extraData={this.props.appState.cards}

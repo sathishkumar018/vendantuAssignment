@@ -4,17 +4,15 @@ export const gameScreen = StyleSheet.create({
     container: {
         flex: 1,
     },
-
     titleText: {
         width: '100%',
-        marginTop: 20,
         alignItems: 'center',
         justifyContent: 'center',
     },
     titleLabel: {
         fontSize: 20,
         fontWeight: 'bold',
-        paddingTop: 40,
+        paddingTop: 30,
         color: '#2DBE99',
     },
     levelScoreContainer: {
